@@ -1,7 +1,155 @@
 .mainView {
-    flex: 1;
-    padding: 20px;
-    background-color: rgb(167, 166, 166);
-    margin: 10px;
-    border-radius: 16px;
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(167, 166, 166);
+  margin: 10px;
+  border-radius: 16px;
+  overflow-y: auto;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+
+.message.customer {
+  align-self: flex-start;
+}
+
+.message.ai {
+  align-self: flex-end;
+}
+
+
+.message-bubble {
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+
+.message.customer .message-bubble {
+  background: #7f7fa6;
+}
+
+.message.ai .message-bubble {
+  background: #4ac6ff;
+}
+
+
+.message-time {
+  font-size: 10px;
+  opacity: 0.6;
+  margin-top: 4px;
+}
+
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.chat-title {
+  margin: 0;
+}
+
+.chat-category {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+
+.chat-status {
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.chat-status:hover {
+  opacity: 0.5;
+}
+
+.chat-status.reviewed {
+  background: #2e7d32;
+}
+
+.chat-status.pending-review {
+  background: #f9a825;
+  color: black;
+}
+
+.chat-status.needs-fix {
+  background: #1565c0;
+}
+
+
+.notes-section {
+    display: flex;
+    flex-direction: column;
+    height: 180px; 
+
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+  max-height: 100px;   
+  overflow-y: auto;  
+  
+}
+
+.note-item {
+  background: #f07892;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.note-item span {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.note-input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.note-input-container input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.note-input-container button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #4a4aff;
+  color: white;
+  cursor: pointer;
+}
+
+.note-input-container button:hover {
+  background: #3a3aff;
 }
