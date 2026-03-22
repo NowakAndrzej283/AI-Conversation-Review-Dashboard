@@ -5,6 +5,7 @@
   margin: 10px;
   border-radius: 16px;
   overflow-y: auto;
+  overflow: hidden;
 }
 
 .chat-messages {
@@ -153,3 +154,11 @@
 .note-input-container button:hover {
   background: #3a3aff;
 }
+
+.chat-meta {
+    font-size: 12px;
+    opacity: 0.7;
+    display: flex;
+    gap: 6px;
+    margin-top: 4px;
+  }

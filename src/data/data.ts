@@ -25,7 +25,9 @@ export const conversations = [
           time: "10:05",
         },
       ],
-      notes: []
+      notes: [],
+      city: 'Warsaw',
+
     },
     {
       id: 2,
@@ -53,7 +55,9 @@ export const conversations = [
         { sender: "customer", text: "Still nothing there.", time: "09:14" },
         { sender: "ai", text: "I'll escalate this to support.", time: "09:15" },
       ],
-      notes: []
+      notes: [],
+      city: 'Lisbon',
+      
     },
     {
       id: 3,
@@ -81,7 +85,8 @@ export const conversations = [
         },
         { sender: "ai", text: "We are checking the issue.", time: "14:25" },
       ],
-      notes: []
+      notes: [],
+      city: 'Prague',
     },
     {
       id: 4,
@@ -90,9 +95,9 @@ export const conversations = [
       category: "Product",
       updatedAt: "3h ago",
       messages: [
-        { sender: "customer", text: "Can you add dark mode?", time: "11:00" },
+        { sender: "customer", text: "Can you add light mode?", time: "11:00" },
         { sender: "ai", text: "That's a popular request!", time: "11:01" },
-        { sender: "customer", text: "It would help at night.", time: "11:02" },
+        { sender: "customer", text: "It would help a lot.", time: "11:02" },
         { sender: "ai", text: "We are considering it.", time: "11:03" },
         { sender: "customer", text: "Any ETA?", time: "11:04" },
         {
@@ -101,7 +106,8 @@ export const conversations = [
           time: "11:05",
         },
       ],
-      notes: []
+      notes: [],
+      city: 'Bratislava'
     },
     {
       id: 5,
@@ -125,6 +131,7 @@ export const conversations = [
           time: "16:45",
         },
       ],
-      notes: []
+      notes: [],
+      city: 'Dubai'
     },
   ];

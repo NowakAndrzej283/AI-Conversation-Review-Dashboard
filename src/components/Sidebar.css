@@ -55,16 +55,20 @@
   text-overflow: ellipsis;
 }
 
-
 .list-time {
   font-size: 11px;
   color: #555;
 }
 .list-status {
-    font-size: 12px;
-    padding: 4px 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    width: fit-content;
-    color: rgb(142, 109, 12);
-  }
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  width: fit-content;
+  color: rgb(142, 109, 12);
+}
+.location {
+  font-size: 11px;
+  opacity: 0.7;
+  margin-top: 4px;
+}
