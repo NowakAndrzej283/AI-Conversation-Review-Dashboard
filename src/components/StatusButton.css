@@ -1,0 +1,48 @@
+.status-wrapper {
+  position: relative;
+}
+
+.chat-status {
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.chat-status.pending {
+  background: #f9a825;
+  color: black;
+}
+
+.chat-status.reviewed {
+  background: #2e7d32;
+  color: white;
+}
+
+.chat-status.in-review {
+  background: #1565c0;
+  color: white;
+}
+
+
+.status-menu {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: #6a6a90;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 140px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.status-menu div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.status-menu div:hover {
+  background: #606096;
+}
