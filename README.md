@@ -24,6 +24,7 @@ was passed as an argument.
 
 ### Tech Stack
 * React
+* Vite
 * JavaScript/TypeScript
 * CSS
 * GeoNames API (https://www.geonames.org/)
