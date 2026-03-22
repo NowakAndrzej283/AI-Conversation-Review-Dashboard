@@ -31,7 +31,8 @@ was passed as an argument.
 ## Installation
 ### Clone the repository 
 
-git clone https://github.com/NowakAndrzej283/AI-Conversation-Review-Dashboard.git
+git clone https://github.com/NowakAndrzej283/AI-Conversation-Review-Dashboard.git 
+
 cd my-app
 
 ### Install dependecies
