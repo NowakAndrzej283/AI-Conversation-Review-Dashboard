@@ -1,0 +1,7 @@
+.mainView {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(167, 166, 166);
+    margin: 10px;
+    border-radius: 16px;
+}
