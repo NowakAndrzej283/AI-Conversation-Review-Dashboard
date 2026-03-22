@@ -26,7 +26,7 @@ was passed as an argument.
 * React
 * JavaScript/TypeScript
 * CSS
-* GeoNames (API)
+* GeoNames API (https://www.geonames.org/)
 
 ## Installation
 ### Clone the repository 
