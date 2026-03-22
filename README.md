@@ -31,8 +31,8 @@ was passed as an argument.
 ## Installation
 ### Clone the repository 
 
-git clone <>
-cd <>
+git clone https://github.com/NowakAndrzej283/AI-Conversation-Review-Dashboard.git
+cd my-app
 
 ### Install dependecies
 
@@ -41,6 +41,10 @@ npm install
 ### Run development server
 
 npm run dev
+
+### Open in browser
+
+http://localhost:5173
 
 
 ## Author
